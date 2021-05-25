@@ -11,6 +11,25 @@ import whatsapp from './img/whatsapp.svg'
 import './App.css';
 
 function App() {
+
+  window.onload = initPage;
+
+function initPage(){
+
+  const numero = document.getElementById('numero');
+  const min = 1;
+  const max = 500;
+  const time = 1500;
+  
+  for (let i = min; i <= max; i++) {
+    setTimeout(function(nr) {
+      numero.innerHTML = nr;
+    }, i * time / max, i);
+  }
+}
+
+
+
   return (
     <div className="App">
       <header className="App-header">
@@ -44,7 +63,7 @@ function App() {
       </header>
       <section className="App-title" id="home">
         <p className="App-title-help">Ajudando a <b>construir</b> cidades</p>
-        <p className="App-title-count">(contador)</p>
+        <p className="App-title-count" id="numero">1</p>
       </section>
       <section className="App-obras" id="obras">
         <h2 className="App-obras-title">Obras</h2>
