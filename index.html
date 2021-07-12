@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="/favicon.ico" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>MIB</title>
+</head>
+<body>
+    <header class="App-header">
+        <img src="./img/logo.png" class="App-logo" alt="logo" />
+        <nav class="App-nav">
+          <a class="App-nav-link home" href="#home">Home</a>
+          <a class="App-nav-link" href="#obras">Obras</a>
+          <a class="App-nav-link" href="#catalogo">Catálogo</a>
+          <a class="App-nav-link" href="#contato">Contato</a>
+        </nav>
+      </header>
+      <section class="App-title" id="home">
+        <p class="App-title-help">Ajudando a <b>construir</b> cidades</p>
+        <div class="App-title-count-content">
+          <div class="App-title-count-div">
+            <p class="App-title-count" id="numeroTorres">1</p>
+            <p class="App-title-count-div-title">Torres</p>
+          </div>
+          <div class="App-title-count-div">
+            <p class="App-title-count" id="numeroApartamentos">1</p>
+            <p class="App-title-count-div-title">Apartamentos</p>
+          </div>
+        </div>
+      </section>
+      <section class="App-obras" id="obras">
+        <h2 class="App-obras-title">Obras</h2>
+        <div class="App-obras-div">
+          <img src="./img/obra.png" class="App-obras-div-obra" alt="obra" />
+        </div>
+      </section>
+      <section class="App-portifolio" id="catalogo">
+        <h2 class="App-portifolio-title">Catálogo</h2>
+        <div class="App-portifolio-div">
+          <img src="./img/kits.png" class="App-portifolio-div-info" alt="obra" />
+          <img src="./img/flex.png" class="App-portifolio-div-info" alt="obra" />
+          <img src="./img/steel.png" class="App-portifolio-div-info" alt="obra" />
+        </div>
+        <a href="/catalogo/Catalogo MIB.pdf" download class="App-portifolio-div-info-download">Baixe nosso catálogo!</a>
+      </section>
+     
+      <section class="App-contato" id="contato">
+        <h2 class="App-contato-title">Contato</h2>
+        <div class="App-contato-div">
+          <input class="App-contato-div-input" placeholder="Nome" id="nome"></input>
+          <input class="App-contato-div-input" placeholder="Telefone" id="telefone"></input>
+          <input class="App-contato-div-input" placeholder="E-mail" id="email"></input>
+          <textarea class="App-contato-div-textarea" placeholder="Digite sua mensagem aqui" id="mensagem"></textarea>
+          <button class="App-contato-div-button" id="anexar">Anexar arquivos</button>
+
+        </div>
+      </section>
+      <section class="App-whatsapp">
+        <a href="https://wa.me/5511953149955" class="App-whatsapp-logo" target="_blank"><img src="./img/whatsapp.svg" class="App-whatsapp-logo" alt="whatsapp" /></a>
+      </section>
+      <footer class="App-footer">
+        <img src="./img/logo.png" class="App-footer-logo" alt="logo" />
+        <div class="App-footer-contato">
+          <p class="App-footer-title">Contatos</p>
+          <p>(11) 4166-6729</p>
+          <p>(11) 9 5314-9955</p>
+        </div>
+        <div class="App-footer-redes">
+          <p class="App-footer-title">Redes Sociais</p>
+          <div class="App-footer-redes-logos">
+            <a href="https://www.instagram.com/mib.hidraulica/" target="_blank" rel="noreferrer">
+              <img src="./img/instagram.svg" class="App-footer-logo-redes" alt="instagram" />
+            </a>
+            <a href="https://www.linkedin.com/company/mib-hidraulica" target="_blank" rel="noreferrer">
+              <img src="./img/linkedin.svg" class="App-footer-logo-redes" alt="linkedin" />
+            </a>
+            <a href="https://www.youtube.com/channel/UCth4MHYDyQjdPZM3UIMF5Xw/featured" target="_blank" rel="noreferrer">
+              <img src="./img/logo-do-youtube.svg" class="App-footer-logo-redes" alt="youtube" />
+            </a>
+          </div>
+        </div>
+      </footer>
+    <script src="main.js" type="module"></script>
+    
+</body>
+</html>

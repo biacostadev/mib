@@ -1,0 +1,274 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+
+}
+
+body {
+    background-color: #FBFAFB;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.App-header {
+  height: 5em;
+  width: 1100px;
+  margin: -6.5em 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  position: fixed;
+  background-color: #fff;
+}
+
+.App-logo {
+  height: 4em;
+}
+
+.App-nav-link {
+  margin-left: 2em;
+  text-decoration: none;
+  color: #000;
+  transition: all 0.4s linear;
+}
+
+.App-nav-link:hover {
+  color: #FF1616;
+  text-decoration: underline;
+}
+
+.App-title{
+  height: 50vh;
+  background-color: #2e2e2e;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  text-transform: uppercase;
+  margin-top: 4.5em;
+  color: #FBFAFB;
+  /* font-family: Lastica; */
+}
+
+.App-title-count-content{
+  margin-top: 1em;
+  display: flex;
+  width: 70%;
+  text-align: center;
+  justify-content: space-around;
+}
+
+.App-title-count-div {
+  display: flex;
+  align-items: baseline;
+  border-bottom: 2px #FBFAFB solid;
+}
+
+.App-title-count-div-title{
+  font-size: 0.5em;
+  margin-bottom: -1.5em;
+  margin-left: 1em;
+}
+
+.App-title-count{
+  font-size: 2.5em;
+}
+
+.App-obras{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.App-obras-title{
+  padding-top: 1em;
+  font-size: 2.5em;
+  font-weight: normal;
+  margin-top: 2em;
+}
+
+.App-obras-div {
+  width: 70vw;
+  display: flex;
+  justify-content: space-around;
+}
+
+.App-obras-div-obra {
+  height: 170vh;
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+
+.App-portifolio{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.App-portifolio-title{
+  padding-top: 1em;
+  font-size: 2.5em;
+  font-weight: normal;
+  margin-top: 2em;
+
+}
+
+.App-portifolio-div {
+  width: 70vw;
+  display: flex;
+  justify-content: space-around;
+}
+
+.App-portifolio-div-info {
+  height: 25vh;
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+
+.App-portifolio-div-info-download {
+    margin-top: 2em;
+  width: 40%;
+  font-size: 1.5em;
+  padding: 0.5em 1em;
+  margin-bottom: 0.5em;
+  cursor: pointer;
+  background-color: #EFEFEF;
+  text-decoration: none;
+  color: #000;
+  text-align: center;
+  border: #9A9A9A solid 1px;
+  border-radius: 2px;
+}
+
+.App-portifolio-div-info-download:hover{
+    background-color: #E5E5E5;
+}
+
+.App-parceiro{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.App-parceiro-title{
+  padding-top: 1em;
+  font-size: 2.5em;
+  font-weight: normal;
+  margin-top: 2em;
+
+}
+
+.App-parceiro-div {
+  width: 70vw;
+  display: flex;
+  justify-content: space-around;
+}
+
+.App-parceiro-div-instalador {
+  height: 40vh;
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+
+.App-contato{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.App-contato-title{
+  padding-top: 1em;
+  font-size: 2.5em;
+  font-weight: normal;
+  margin-bottom: 0.5em;
+  margin-top: 2em;
+}
+
+.App-contato-div {
+  width: 70vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.App-contato-div-input{
+  width: 50%;
+  font-size: 1em;
+  outline: none;
+  padding-left: 1em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  margin-bottom: 0.5em;
+  border-radius: 5px;
+  border: 1.5px solid #000;
+}
+
+.App-contato-div-textarea{
+  width: 50%;
+  height: 10em;
+  font-size: 1.3em;
+  outline: none;
+  border-radius: 5px;
+  border: 1.5px solid #000;
+  padding: 0.5em 1em;
+  margin-bottom: 0.5em;
+}
+
+.App-contato-div-button{
+  width: 20%;
+  font-size: 1.3em;
+  padding: 0.5em 1em;
+  margin-bottom: 0.5em;
+  cursor: pointer;
+}
+
+.App-whatsapp-logo{
+  width: 4em;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+
+.App-footer{
+  display: flex;
+  height: 20vh;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2e2e2e;
+  padding: 0.5em 0 0.5em 1.5em;
+  color: #FBFAFB;
+}
+
+.App-footer-title{
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
+
+.App-footer-logo{
+  width: 8em;
+  background-color: #fff;
+  border: 3px solid #fff;
+}
+
+.App-footer-logo-redes {
+  width: 3em;
+  margin-right: 1.5em;
+  color: #FBFAFB;
+  cursor: pointer;
+}
+
+a{
+  text-decoration: none;
+
+}
