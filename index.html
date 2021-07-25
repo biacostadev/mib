@@ -13,12 +13,30 @@
         <img src="./img/logo.png" class="App-logo" alt="logo" />
         <nav class="App-nav">
           <a class="App-nav-link home" href="#home">Home</a>
+          <a class="App-nav-link" href="#produtos">Produtos e Serviços</a>
           <a class="App-nav-link" href="#obras">Obras</a>
-          <a class="App-nav-link" href="#catalogo">Catálogo</a>
           <a class="App-nav-link" href="#contato">Contato</a>
+          <a class="App-nav-link home" href="/sobre.html">Sobre</a>
         </nav>
       </header>
-      <section class="App-title" id="home">
+     
+
+      <section class="App-portifolio" id="produtos">
+        <h2 class="App-portifolio-title">Produtos e Serviços</h2>
+        <div class="App-portifolio-div">
+          <img src="./img/Produtos.png" class="App-portifolio-div-info" alt="obra" />
+        </div>
+        <a href="/catalogo/Catalogo MIB.pdf" download class="App-portifolio-div-info-download">Baixe nosso catálogo!</a>
+      </section>
+      
+      <section class="App-obras" id="obras">
+        <h2 class="App-obras-title">Obras</h2>
+        <div class="App-obras-div">
+          <img src="./img/obra.png" class="App-obras-div-obra" alt="obra" />
+        </div>
+      </section>
+
+      <section class="App-title" >
         <p class="App-title-help">Ajudando a <b>construir</b> cidades</p>
         <div class="App-title-count-content">
           <div class="App-title-count-div">
@@ -31,28 +49,13 @@
           </div>
         </div>
       </section>
-      <section class="App-obras" id="obras">
-        <h2 class="App-obras-title">Obras</h2>
-        <div class="App-obras-div">
-          <img src="./img/obra.png" class="App-obras-div-obra" alt="obra" />
-        </div>
-      </section>
-      <section class="App-portifolio" id="catalogo">
-        <h2 class="App-portifolio-title">Catálogo</h2>
-        <div class="App-portifolio-div">
-          <img src="./img/kits.png" class="App-portifolio-div-info" alt="obra" />
-          <img src="./img/flex.png" class="App-portifolio-div-info" alt="obra" />
-          <img src="./img/steel.png" class="App-portifolio-div-info" alt="obra" />
-        </div>
-        <a href="/catalogo/Catalogo MIB.pdf" download class="App-portifolio-div-info-download">Baixe nosso catálogo!</a>
-      </section>
      
       <section class="App-contato" id="contato">
         <h2 class="App-contato-title">Contato</h2>
         <div class="App-contato-div">
           <input class="App-contato-div-input" placeholder="Nome" id="nome"></input>
-          <input class="App-contato-div-input" placeholder="Telefone" id="telefone"></input>
-          <input class="App-contato-div-input" placeholder="E-mail" id="email"></input>
+          <input class="App-contato-div-input" type="text" maxlength="15" placeholder="Telefone" id="telefone"></input>
+          <input class="App-contato-div-input" type="email" placeholder="E-mail" id="email"></input>
           <textarea class="App-contato-div-textarea" placeholder="Digite sua mensagem aqui" id="mensagem"></textarea>
           <button class="App-contato-div-button" id="anexar">Anexar arquivos</button>
 
@@ -83,7 +86,7 @@
           </div>
         </div>
       </footer>
-    <script src="main.js" type="module"></script>
+    <script src="main.js" type="text/javascript"></script>
     
 </body>
 </html>
